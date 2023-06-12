@@ -33,7 +33,7 @@ class HomeScreen extends GetView<HomeController> {
                 label: 'Home',
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.person),
+                icon: Icon(Icons.shopping_cart),
                 label: 'My Show',
               ),
             ],
@@ -104,8 +104,8 @@ class HomeScreen extends GetView<HomeController> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(25),
                         border: Border.all(width: 0.5, color: Colors.white)),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         SizedBox(width: 10),
                         Icon(Icons.search),
                         SizedBox(width: 10),

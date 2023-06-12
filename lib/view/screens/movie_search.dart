@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../app/app_route.dart';
-import '../../controller/search_controller.dart';
+import '../../controller/search_controller.dart' as p;
 
-class MovieSearch extends GetView<SearchController> {
+class MovieSearch extends GetView<p.SearchController> {
   const MovieSearch({Key? key}) : super(key: key);
   static const route = AppRoute.search;
   static GetPage page = GetPage(
